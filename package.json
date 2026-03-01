@@ -1,0 +1,42 @@
+{
+  "name": "icacheyou",
+  "version": "1.0.0",
+  "description": "Redis caching layer for Drizzle ORM queries. Bun runtime only. Type-safe, tag-based invalidation, fail-graceful.",
+  "engines": {
+    "bun": ">=1.1.0"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "cache",
+    "redis",
+    "drizzle",
+    "orm",
+    "bun",
+    "hono",
+    "typescript",
+    "ttl",
+    "tag-invalidation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.4.5"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
