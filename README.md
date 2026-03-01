@@ -199,4 +199,4 @@ examples/
 
 ## License
 
-MIT
+MIT License
